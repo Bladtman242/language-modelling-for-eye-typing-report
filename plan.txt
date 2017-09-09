@@ -1,0 +1,13 @@
+Write introduction sections for the report.                                      | 04/21
+Implement and finalize language models                                           | 04/22
+Write about the background of language and input modelling techniques in the
+method section for the report                                                    | 04/23
+Implement uncalibrated eye tracking, based on Pearson-correlation                | 04/24
+Implement input model. Organize user-study (find subjects)                       | 04/25
+Perform user study, and make conclusions, and write user study sections in
+report                                                                           | 04/26
+Write detailed description of the implemented language and input models for the
+method section in the report                                                     | 04/27 
+Write project conclusion section of report                                       | 04/28
+Polish and proof read full report                                                | 04/29
+Project deadline                                                                 | 05/06

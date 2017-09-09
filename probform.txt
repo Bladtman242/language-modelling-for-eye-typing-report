@@ -1,0 +1,54 @@
+The purpose of this project is to explore the use of language- and input-models,
+to facilitate eye typing with uncalibrated eye tracking.
+
+Typing is a ubiquitous input method for human-computer interaction, particularly for
+human-to-human communication facilitated by computers.
+
+Several methods have been developed to help humans type faster and more
+accurately, especially on mobile platforms like mobile phones. Some methods are
+based on probabilistic language- and input-modelling, such as T9 and the
+replace-as-you-type technologies (colloquially; _autocorrect_) that have mostly
+replaced T9 on contemporary smartphones, perhaps due to widespread deployment of
+touchscreens. Other methods use gestures, or leverage creative arrangements of
+input symbols. Examples include swype for Android and IOS, and Dasher and
+StarGazer intended for use with eye tracking.
+
+The use of eye tracking as a means of text input (eye typing) can be demanding
+on the user. Exact and deliberate control of the gaze is difficult and tiring,
+and in addition to the energy expended when typing, most systems require
+users to go through calibration routines before use.
+
+One area where eye typing has seen use is as a communication platform for ALS
+(amyotrophic lateral sclerosis) patients. Patients suffering suffering from ALS
+often retain the use of their eye muscles longer than that of other muscles, and
+eye typing can therefore help increase their quality of life. In practice,
+patients patients tend to use eye typing for short commands and answers. For
+such usage patterns, uncalibrated eye typing may be particularly beneficial.
+
+The following outlines the methods I plan to investigate, to achieve the project
+goal:
+
+1. A language- and input-model will be designed and implemented, in order to
+make educated guesses as to the intended user input, in an attempt to compensate
+for tracker (and user) imprecisions. The model will be subject to development
+and experimentation, but is envisioned as a combination of the following:
+    * Interpreting the geometrical user input (points on a plane) as words with a
+    probabilistic word search.
+    * Limiting the need for typing, by using predictive word-completion, in a
+      manner similar to that used in T9.
+2. At least one typing system will be implemented, either on top of existing eye
+tracker software and hardware, or as a simulation using a pointing device
+(mouse). Input symbols will be placed on the perimeter of one or more circles.
+Several arrangements on circles may be explored, to solve the problem known
+as _midas touch_ in eye typing, and to help compensate for imprecisions. These
+considerations fall in the category of _creative arrangements_ mentioned above,
+and not a primary focus of this project. Different methods will therefore be
+explored only to the extent necessary for a functioning system, and as time permits.
+3. The typing system(s) will be evaluated with a typing performance test, the
+scope of which will be determined throughout the project, based on necessity and
+time constraints. It may be as simple as the author performing a
+words-per-minute test, or it may be a proper user study.
+
+The deliverables of is project are software implementations of the language- and
+input-model, of the eye typing system(s), and a report detailing the project
+process and results.

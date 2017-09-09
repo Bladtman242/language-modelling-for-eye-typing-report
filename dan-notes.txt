@@ -1,0 +1,4 @@
+* Selektioner som genereliserring af typing
+* Swype er gesture based
+* Relevans for patienter af ukalibreret (kommandoer, korte beskeder, ikke "full on typing", altså er kalibrering for hver kommando ineffektivt)
+* Indskrænk størelse, 7.5 pt! --- fastsæt fokus, beskriv "extras"
