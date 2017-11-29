@@ -1,0 +1,5 @@
+  * use language model to type
+  * ease up on the required point/gaze correlation, and let the language model
+    take care of the difference.
+  * change circle positioning in accordance with confidence in selection
+  * type test
